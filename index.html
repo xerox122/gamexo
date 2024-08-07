@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin the Wheel Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spin the Wheel!</h1>
+        <div class="wheel-container">
+            <canvas id="wheel" width="400" height="400"></canvas>
+            <!-- <div id="arrow"></div> -->
+        </div>
+        <button id="spinButton">Spin</button>
+        <div id="result"></div>
+    </div>
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="don_t_touch_my_phone.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <!-- Spin Sound Effect -->
+    <audio id="spinTune">
+        <source src="spin-tune.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
